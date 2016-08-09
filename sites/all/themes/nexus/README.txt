@@ -9,11 +9,6 @@ core theme. Its very light weight for fast loading with modern look.
   Footer with 4 regions
   A total of 10 regions
   Compatible and tested on IE7, IE8, IE9+, Opera, Firefox, Chrome browsers
-  Browser selector
-  selectivirz
-  normalizr
-  sass & compass
-
 
 Browser compatibility:
 =====================
@@ -26,7 +21,6 @@ This theme is compatible with Drupal 7.x.x
 Developed by
 ============
 www.devsaran.com
-
 
 
 Help and Support Us

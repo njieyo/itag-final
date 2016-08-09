@@ -57,7 +57,6 @@ function nexus_form_system_theme_settings_alter(&$form, &$form_state) {
     '#title' => t('Slide URL'),
     '#default_value' => theme_get_setting('slide1_url','nexus'),
   );
-
   $form['nexus_settings']['slideshow']['slide2'] = array(
     '#type' => 'fieldset',
     '#title' => t('Slide 2'),
@@ -79,7 +78,6 @@ function nexus_form_system_theme_settings_alter(&$form, &$form_state) {
     '#title' => t('Slide URL'),
     '#default_value' => theme_get_setting('slide2_url','nexus'),
   );
-
   $form['nexus_settings']['slideshow']['slide3'] = array(
     '#type' => 'fieldset',
     '#title' => t('Slide 3'),
@@ -101,14 +99,7 @@ function nexus_form_system_theme_settings_alter(&$form, &$form_state) {
     '#title' => t('Slide URL'),
     '#default_value' => theme_get_setting('slide3_url','nexus'),
   );
-
   $form['nexus_settings']['slideshow']['slideimage'] = array(
     '#markup' => t('To change the Slide Images, Replace the slide-image-1.jpg, slide-image-2.jpg and slide-image-3.jpg in the images folder of the theme folder.'),
-  );
-  $form['theme_settings']['grid']['grid_display'] = array(
-    '#type' => 'checkbox',
-    '#title' => t('Show Developer button grid'),
-    '#default_value' => theme_get_setting('grid_display','nexus'),
-    '#description'   => t("Check this option to show Button to Show Grid columns. Uncheck to hide."),
   );
 }

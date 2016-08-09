@@ -1,5 +1,5 @@
 <?php if (!empty($content)): ?>
-<section class="<?php print $classes; ?>">
+<div class="<?php print $classes; ?>">
   <?php print $content; ?>
-</section>
+</div>
 <?php endif; ?> <!-- /.region -->

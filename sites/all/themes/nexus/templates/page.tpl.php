@@ -66,8 +66,10 @@
 ?>
 <div id="page">
   <header id="masthead" class="site-header container" role="banner">
+
     <div class="row">
-      <div id="logo" class="site-branding col-sm-6">
+      
+      <div id="logo" class="site-branding col-sm-2">
         <?php if ($logo): ?><div id="site-logo"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
           <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
         </a></div><?php endif; ?>
@@ -75,7 +77,8 @@
           <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
         </h1>
       </div>
-      <div class="col-sm-6 mainmenu">
+      
+      <div class="col-sm-10 mainmenu ">
         <div class="mobilenavi"></div>
         <nav id="navigation" role="navigation">
           <div id="main-menu">
@@ -88,7 +91,9 @@
               print drupal_render($main_menu_tree);
             ?>
           </div>
+          
         </nav>
+        
       </div>
     </div>
   </header>
@@ -234,7 +239,7 @@
     <div class="container">
       <div class="row">
         <div class="fcred col-sm-12">
-          <?php print t('Copyright'); ?> &copy; <?php echo date("Y"); ?>, <a href="<?php print $front_page; ?>"><?php print $site_name; ?></a>. <?php print t('Theme by'); ?>  <a href="http://www.devsaran.com" target="_blank">Devsaran</a>.
+          <?php print t('Copyright'); ?> &copy; <?php echo date("Y"); ?> <a href="<?php print $front_page; ?>"><?php print $site_name; ?></a> <a href="#" target="_blank">ITAG</a>.
         </div>
       </div>
     </div>

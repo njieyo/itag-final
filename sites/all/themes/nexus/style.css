@@ -55,11 +55,11 @@ body {
 
 /* Links */
 a {
-  color: #f4473a;
+  /*color: #f4473a;*/
 
 }
 a:visited {
-  color: #f4473a;
+  /*color: #f4473a;*/
 }
 a:hover,
 a:focus,
@@ -278,6 +278,7 @@ a:focus {
 #site-logo {
   float: left;
   padding: 15px 15px 0 0;
+  width: 60%;
 }
 h1#site-title{
   text-transform: uppercase;
@@ -308,9 +309,9 @@ h1#site-title a:link, h1#site-title a:visited{
 }
 
 #main-menu {
-  padding:0px 0px;
+  padding:25px;
   margin: 22px 0px 15px;
-  height:45px;
+  height:20px;
   border-bottom: none;
   float: left;
 }
@@ -342,7 +343,7 @@ h1#site-title a:link, h1#site-title a:visited{
 }
 
 #main-menu li a:hover, #main-menu li a:active, #main-menu a.active, #main-menu > ul > li > a.active-trail {
-  color: #ed564b;
+  color: #0a68c6;
 }
   
 #main-menu li a.sf-with-ul {
@@ -367,7 +368,7 @@ h1#site-title a:link, h1#site-title a:visited{
 
   
 #main-menu li ul li a:hover ,#main-menu li ul li ul li a:hover ,#main-menu li ul li ul li ul li a:hover {
-  color: #ed564b;
+  color: #0a68c6;
 }
 
 #main-menu li ul {
@@ -480,12 +481,13 @@ a.frmore{
   margin: 10px auto;
   font-weight: bold;
   color: #fff!important;
+  background: #0a68c6;
 }
 
 #preface-area {
-  background: none repeat scroll 0 0 #ED564B;
-  border-bottom: 5px solid #F96B61;
-  border-top: 5px solid #F96B61;
+  background: none repeat scroll 0 0 #0a68c6;
+  border-bottom: 5px solid #0a68c6;
+  border-top: 5px solid #0a68c6;
   padding: 40px 0 20px;
 }
 
@@ -508,7 +510,7 @@ a.frmore{
 #bottom{
   padding: 20px 0px 40px 0px;
   background: #3b3b3b;
-  border-top:5px solid #ed564b;
+  border-top:5px solid #0a68c6;
 }
  
 .footer-block{
@@ -993,7 +995,7 @@ ul.inline, ul.links.inline {
 }
 
 .field-name-field-tags a{
-  background: #ed564b;
+  background: #0a68c6;
   margin-right: 5px;
   margin-bottom: 5px;
   border-radius: 2px;
@@ -1157,5 +1159,11 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
   .flex-caption{
     display: none;
   }
+
+  .search{
+    float: left;
+    width: 70%;
+  }
+
 
 }
